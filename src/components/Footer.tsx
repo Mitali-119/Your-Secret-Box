@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="text-center p-4 md:p-6 bg-gray-900 text-white">
             <p className="text-sm md:text-base lg:text-lg">
-                "Your Secret Box"
+                &quot;Your Secret Box&quot;
             </p>
             <p className="text-sm md:text-base lg:text-lg">
                 Powered by caffeine and anonymous Love {' '}

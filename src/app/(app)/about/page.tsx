@@ -16,7 +16,7 @@ export default function AboutPage() {
           feedback at your convenience. All messages remain private and securely stored.
         </p>
         <p className="text-lg leading-relaxed">
-          Whether you're a creator, student, or professional — <strong>Your Secret Box</strong> helps you grow through 
+          Whether you&apos;re a creator, student, or professional — <strong>Your Secret Box</strong> helps you grow through 
           anonymous, honest input.
         </p>
       </div>

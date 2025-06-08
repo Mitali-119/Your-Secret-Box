@@ -15,7 +15,7 @@ const HomePage = () => {
             Say What Matters, Without the Spotlight
           </h1>
           <p className="mt-3 md:mt-4 text-base md:text-lg">
-            "Your Secret Box — where kind words and honest thoughts stay anonymous."
+            &quot;Your Secret Box — where kind words and honest thoughts stay anonymous.&quot;
           </p>
 
           <Link href="/dashboard">

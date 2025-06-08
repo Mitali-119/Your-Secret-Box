@@ -1,0 +1,115 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs
+lib-cov
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+jspm_packages/
+bower_components
+web_modules/
+
+# Grunt
+.grunt
+
+# node-waf config
+.lock-wscript
+
+# Binary Addons
+build/Release
+
+# Snowpack
+web_modules/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# npm/yarn/pnpm
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Linting
+.eslintcache
+.stylelintcache
+
+# Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL history
+.node_repl_history
+
+# Package output
+*.tgz
+
+# Build / dist / output
+.next/
+out/
+.build
+dist
+.nuxt
+.vuepress/dist
+.temp
+.cache
+.parcel-cache
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Vitepress
+**/.vitepress/dist
+**/.vitepress/cache
+
+# VSCode test
+.vscode-test
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Misc
+.DS_Store
+*.pem
+
+# PDF you mentioned
+Anonymous Feedback App - PDF.pdf

@@ -2,6 +2,7 @@
 
 const Footer = () => {
     return (
+        <div  className="max-w-md mx-auto p-4">
         <footer className="text-center p-4 md:p-6 bg-gray-900 text-white">
             <p className="text-sm md:text-base lg:text-lg">
                 &quot;Your Secret Box&quot;
@@ -18,6 +19,7 @@ const Footer = () => {
                 </a>
             </p>
         </footer>
+        </div>
     );
 }
 

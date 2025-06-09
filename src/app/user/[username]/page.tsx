@@ -163,10 +163,10 @@ const SendMessage = () => {
                                 <p className="text-slate-400">No suggestions available</p>
                             ) : (
                                 suggestedMessages.map(({ messageId, messageText }) => (
-                                    <Button
+                                    <Button 
                                         key={messageId}
                                         variant="outline"
-                                        className="bg-slate-700 text-slate-100 hover:bg-slate-600 hover:text-white"
+                                         className="w-full whitespace-normal break-words bg-slate-700 text-slate-100 hover:bg-slate-600 hover:text-white text-center px-4 py-2"
                                         onClick={() => handleMessageClick(messageText)}
                                     >
                                         {messageText}

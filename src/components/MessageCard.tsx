@@ -55,10 +55,10 @@ export default function MessageCard({ message, onMessageDelete }: MessageCardPro
     };
 
     return (
-        <Card className="card-bordered">
+        <Card className="card-bordered ">
             <CardHeader>
                 <div className="flex justify-between items-center">
-                    <CardTitle>{message.content}</CardTitle>
+                    <CardTitle  className="break-words whitespace-normal text-base sm:text-lg">{message.content}</CardTitle>
                     <AlertDialog>
                         <AlertDialogTrigger asChild>
                             <Button variant='destructive'>
